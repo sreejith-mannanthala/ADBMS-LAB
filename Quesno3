@@ -1,0 +1,40 @@
+a)insert into dept values(123,'MCA');
+insert into dept values(456,'MBA');
+insert into dept values(789,'BCA');
+
+
+
+insert into students values(1,'Amrutha','s2','tvm',500,80,123);
+insert into students values(2,'Aparna','s2','tvm',500,88,456);
+insert into students values(3,'Anuja','s2','ekm',500,90,789);
+
+
+
+insert into staff values(101,'Devika',123,'Professor',50000,'tvm');
+insert into staff values(102,'Anurag',456,'asst.prof',25000,'klm');
+insert into staff values(103,'Sreejith',789,'clerk',15000,'kkd');
+
+
+INSERT INTO Company VALUES(111,'Acer','tvm',100);
+ INSERT INTO Company VALUES(222,'ust','kochi',3);
+ INSERT INTO Company VALUES(333,'tcs','ekm',15);
+
+insert into employeee values(551,'Sarath',111,'dvp',40000,'tvm');
+insert into employeee values(552,'ubaid',222,'dvp',42000,'kollam');
+insert into employeee values(553,'goutham',333,'clerk',25000,'kkd');
+
+
+b)select *from students order by deptid;
+c) select *from employeee;
+d)select *from staff where salary>20000;
+e) select *from students where percentage between 81 and 91;
+
+
+
+
+
+
+
+   
+
+
